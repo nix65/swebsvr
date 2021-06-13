@@ -11,11 +11,6 @@ fn main() {
         handle_connection(stream);
     }
 
-    let a1 = 822_222;
-    let a2 = 0xff;
-    let a3 = 0o72;
-    let a4 = 0b1111_0001111110;
-    let a5 = b"FFWJOJBMOW";
 }
 
 fn handle_connection(mut stream: TcpStream) {
